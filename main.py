@@ -1,19 +1,5 @@
 from parser import parse
 
-import argparse
-
-# Create the argument parser
-parser = argparse.ArgumentParser()
-
-# Add the desired command-line argument
-parser.add_argument('-format', type=str, help='Specify the format')
-
-# Parse the command-line arguments
-args = parser.parse_args()
-
-# Access the value of the 'format' argument
-format_value = args.format
-
 # Main function
 def main():
     url = "https://alerts.in.ua"
